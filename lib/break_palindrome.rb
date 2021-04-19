@@ -1,4 +1,4 @@
 def breakPalindrome(palindromeStr)
   return 'IMPOSSIBLE' if palindromeStr.length == 1
-  'aab'
+  palindromeStr.sub(/[b-z]/, 'a')
 end
