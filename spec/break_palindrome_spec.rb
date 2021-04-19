@@ -20,4 +20,8 @@ describe '#breakPalindrome' do
   it 'returns aaabaa for aabbaa' do
     expect(breakPalindrome('aabbaa')).to eq('aaabaa')
   end
+
+  it 'returns aaaabaaa for aaabbaaa' do
+    expect(breakPalindrome('aaabbaaa')).to eq('aaaabaaa')
+  end
 end
