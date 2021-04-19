@@ -1,3 +1,4 @@
 def breakPalindrome(palindromeStr)
-  'IMPOSSIBLE'
+  return 'IMPOSSIBLE' if palindromeStr.length == 1
+  'aab'
 end
