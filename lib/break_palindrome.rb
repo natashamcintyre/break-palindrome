@@ -1,4 +1,6 @@
 def breakPalindrome(palindromeStr)
-  return 'IMPOSSIBLE' if palindromeStr.length == 1 || palindromeStr.scan(/[b-z]/).empty?
+  if palindromeStr.index(/[b-z]/) == (palindromeStr.length - 1) / 2 || palindromeStr.scan(/[b-z]/).empty?
+    return 'IMPOSSIBLE'
+  end
   palindromeStr.sub!(/[b-z]/, 'a')
 end
