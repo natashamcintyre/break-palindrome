@@ -14,4 +14,5 @@ INPUT | OUTPUT
 'b' | IMPOSSIBLE (will be a palindrome)
 'bab' | 'aab'
 'aaa' | IMPOSSIBLE (nothing alphabetically lower)
+'aabaa' | IMPOSSIBLE (will be palindrome)
 'aaabbaaa' | 'aaaabaaa'
