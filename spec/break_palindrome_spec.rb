@@ -16,4 +16,8 @@ describe '#breakPalindrome' do
   it 'returns IMPOSSIBLE for aabaa' do
     expect(breakPalindrome('aabaa')).to eq('IMPOSSIBLE')
   end
+
+  it 'returns aaabaa for aabbaa' do
+    expect(breakPalindrome('aabbaa')).to eq('aaabaa')
+  end
 end
